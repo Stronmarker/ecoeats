@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire>
+    <nom>QUESTIONNAIRE LANGAGES FRONT </nom>
+    <question id="1">
+        <enonce>Quelle est l’utilité de l’élément ?</enonce>
+        <reponse>Un élément en html, permet de définir des objets dans la page. Un élément permet de définir des balises (p, h1). Un élément se compose de la balise ouvrante et fermante.</reponse>
+    </question>
+    <question id="2">
+        <enonce>Définir la sémantique du web.</enonce>
+        <reponse>Le web sémantique correspond au web 3.0, où le web n’est plus seulement accessible à l’homme, mais aussi à la machine grâce à l’utilisation et à l’exploitation des données du web.</reponse>
+    </question>
+    <question id="3">
+        <enonce>Citez des éléments du DOM se référant au contenu textuel d’un structure html.</enonce>
+        <reponse>
+            &lt;meta&lt;
+            &lt;link&lt;
+            &lt;title&lt;
+        </reponse>
+    </question>
+    <question id="4">
+        <enonce>Qu’est-ce qu’un Framework css ?</enonce>
+        <reponse>Le framework css est un fichier css préconstruit téléchargeable contenant un très grand nombre de style possible. On l’utilise pour gagner du temps et accélérer la mise en place du front-end. Bootstrap est un framework css.</reponse>
+    </question>
+    <question id="5">
+        <enonce>Quels sont les points communs et les différences entre le Html et le Xml ?</enonce>
+        <reponse>Les deux langages utilisent des balises. Le HTML lui sert à présenter une page web alors que le XML lui sert à l’exploitation des données.</reponse>
+    </question>
+    <question id="6">
+        <enonce>Que contient les éléments head et body ? Quelle est leur relation avec l’objet html ?</enonce>
+        <reponse>
+            head et body sont des éléments enfants de html
+            Dans head on retrouve les métadonnées de la page :
+                &lt;meta&lt;
+                &lt;title&lt;
+                &lt;style&lt;
+            Dans body, on retrouve les éléments permettant la structure de la page
+                &lt;header&lt;
+                &lt;footer&lt;
+                &lt;h1&lt;
+                &lt;p&lt;
+        </reponse>
+    </question>
+    <question id="7">
+        <enonce>Citez 3 protocoles applicatifs du TCP/IP.</enonce>
+        <reponse>On retrouve la requête http.</reponse>
+    </question>
+    <question id="8">
+        <enonce>Décrire en quelques lignes le modèle client-serveur.</enonce>
+        <reponse>Le client effectue une demande quand il veut consulter un site par exemple, il envoie donc une requête http. Le serveur qui lui répond après avoir traité et identifier la requête va envoyer une réponse http.</reponse>
+    </question>
+    <question id="9">
+        <enonce>Comment mettre un commentaire en html5 et en CSS ?</enonce>
+        <reponse>Html5 on utilise &lt;! --&lt; Css on utilise //</reponse>
+    </question>
+    <question id="10">
+        <enonce>Quel est le rôle du W3C ?</enonce>
+        <reponse>C’est le standard du web, comme par exemple les W3C validator afin que les pages HTML soit uniformes et puissent fonctionner entre-elles.</reponse>
+    </question>
+</questionnaire>
